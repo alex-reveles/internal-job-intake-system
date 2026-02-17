@@ -6,7 +6,7 @@ Teams often receive requests through fragmented channels (email, chats, verbal c
 ## Solution
 A structured intake form feeds directly into a controlled Requests table. Workflow state is internally managed, and real-time reporting provides visibility into workload distribution.
 ## Architecture
-Form -> Airtable Base(Default State Initialization) -> Interface Dashboard -> Automation(event-driven email notification)
+Form -> Airtable Base (Default State Initialization) -> Interface Dashboard -> Automation (event-driven email notification)
 ## Design Decisions
 - Status is system-controlled, not user-controlled
 - Default field values used instead of automation for state initialization
