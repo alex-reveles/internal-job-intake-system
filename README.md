@@ -17,3 +17,5 @@ Form -> Airtable Base(Default State Initialization) -> Interface Dashboard -> Au
 - Reduced manual triage
 - Real-time visibility
 - Extensible architecture for future enhancements
+## Form Example
+![Form Screenshot](screenshots/form.jpg)
